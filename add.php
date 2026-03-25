@@ -1,5 +1,5 @@
 <?php 
-// 1. Isku xirka database-ka
+
 include 'db_conn.php'; 
 
 $message = ""; 
@@ -18,7 +18,7 @@ if (isset($_POST['save_student'])) {
               VALUES ('$fullname', '$tel', '$email', '$address', '$gender', '$date')";
 
     if (mysqli_query($conn, $query)) {
-        // Haddii uu guuleysto, wuxuu ku celinayaa index.php 2 ilbidhiqsi ka dib
+        
         $message = "<div class='alert alert-success'>Ardayga si guul leh ayaa loo kaydiyey! ✅</div>";
         header("Refresh:2; url=index.php");
     } else {
