@@ -1,5 +1,5 @@
 <?php 
-// 1. Isku xirka database-ka (Hubi in magaca faylkaagu yahay db_conn.php)
+
 include 'db_conn.php'; 
 
 // 2. SQL query-ga lagu soo saaro xogta ardayda
