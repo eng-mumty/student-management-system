@@ -1,7 +1,7 @@
 <?php
 include "db_conn.php";
 
-// 1. Soo qabo ID-ga qofka la rabo in wax laga beddelo
+// 1.  ID-ga qofka la rabo in wax laga beddelo
 $id = $_GET['id'];
 
 // 2. SQL query si xogta qofkaas kaliya loo soo saaro
